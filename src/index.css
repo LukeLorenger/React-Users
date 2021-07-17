@@ -82,3 +82,41 @@ form .form-inner .form-group input {
 form .form-inner .form-group input:focus {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
+
+form .form-inner input[type="submit"],
+.welcome button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
+    background-size: 200%;
+    background-position: 0%;
+    transition: .4s;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .form-inner input[type="submit"]:hover,
+.welcome button:hover {
+    background-position: 100% 0%;
+}
+
+.welcome {
+    width: 100%;
+    max-width: 480px;
+    background-color: #FFF;
+    padding: 15px 30px;
+}
+
+.welcome h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.welcome h2 span {
+    color: #FE4880;
+    font-weight: 700;
+}
