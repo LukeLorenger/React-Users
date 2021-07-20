@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function LoginForm({ Login, error }) {
+function LoginCred({ Login, error }) {
     const [details, setDetails] = useState({name: "", email: "", password: ""});
 
     const submitHandler = e => {
@@ -32,4 +32,4 @@ function LoginForm({ Login, error }) {
     )
 }
 
-export default LoginForm
+export default LoginCred
